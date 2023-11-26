@@ -1,0 +1,308 @@
+/*-----------------
+	1. General
+-----------------------*/
+
+:root {
+  --section-bg: #f7e6de;
+  --rubik: "Rubik", sans-serif;
+  --button-common: rgba(245, 83, 107, 1);
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url(/assets/fonts/Rubik/Rubik-VariableFont_wght.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Carena";
+  src: url(/assets/fonts/carena/Carena-Regular.otf) format("opentype");
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Carena", sans-serif;
+  color: #000;
+  background: #fff;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+header {
+  position: sticky;
+  z-index: 111;
+  top: 0;
+  width: 100%;
+}
+
+.title-outfit {
+  color: #000;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.large-title {
+  font-size: 82.9px;
+  line-height: normal;
+  letter-spacing: -2.487px;
+}
+
+.medium-title {
+  font-size: 46.538px;
+  line-height: normal;
+  letter-spacing: -1.396px;
+}
+
+.normal-title {
+  font-size: 45.426px;
+  line-height: 107.6%;
+}
+
+.rubik-title {
+  font-family: var(--rubik);
+  font-size: 32px;
+  line-height: normal;
+}
+
+.content-outfit {
+  font-family: var(--rubik);
+  font-size: 23.349px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.thumbnail-title {
+  font-size: 38.38px;
+  line-height: 123.1%;
+}
+
+.footer-text {
+  font-family: var(--rubik);
+  font-size: 6.724px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 10px 0;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: var(--button-common);
+}
+
+.btn-common {
+  font-family: var(--rubik);
+  width: 149px;
+  height: 40px;
+  padding: 0px 9px;
+  background: var(--button-common);
+  color: #fff;
+  text-align: center;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 123.1%; /* 13.541px */
+  text-transform: uppercase;
+  border-radius: 0;
+}
+
+.btn-common-extended {
+  width: 201px !important;
+}
+
+.btn-common:hover,
+.btn-common:focus,
+.btn-common:active {
+  color: #fff;
+  box-shadow: none;
+}
+
+.flex-default {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.logo-container {
+  padding: 16px;
+  background: #fff;
+}
+
+.border-b {
+  border-bottom: 2px solid #000;
+}
+
+.border-l {
+  border-left: 2px solid #000;
+}
+
+.border-r {
+  border-right: 2px solid #000;
+}
+
+.border-t {
+  border-top: 2px solid #000;
+}
+
+.rm-pd {
+  padding: 0;
+}
+
+.add-space {
+  padding: 50px;
+}
+
+.add-space-30 {
+  padding: 30px;
+}
+
+.add-space-100 {
+  padding: 100px 50px 50px 50px;
+}
+
+.bg-pink {
+  background: var(--section-bg);
+}
+
+.footer-bg {
+  background: #fff7ef;
+}
+
+.mb-8 {
+  margin-bottom: 8px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.thumbnail-bullets {
+  margin: 15px 0;
+}
+
+.thumbnail-bullets li {
+  font-family: var(--rubik);
+  font-size: 16.193px;
+  line-height: 123.1%; /* 19.934px */
+}
+
+.shop-buttons-container {
+  position: relative;
+}
+.shop-buttons {
+  gap: 35px;
+  margin-top: -80px;
+  /* position: absolute;
+  bottom: 10%;
+  left: 50%;
+  right: 50%; */
+}
+
+.payment-methods-container {
+  gap: 10px;
+}
+
+.social-links-container {
+  gap: 15px;
+}
+
+.founder-hero-container img,
+.rachel-wears img,
+.shop-buttons-container img {
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .content {
+    width: 529.187px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  img {
+    max-width: 100%;
+  }
+
+  .large-title {
+    font-size: 41.9px;
+  }
+
+  .medium-title {
+    font-size: 23.538px;
+  }
+
+  .normal-title {
+    font-size: 24.426px;
+  }
+
+  .rubik-title {
+    font-size: 18px;
+  }
+
+  .content-outfit {
+    font-size: 18.349px;
+    text-align: center !important;
+  }
+
+  .thumbnail-title {
+    font-size: 17.38px;
+  }
+
+  .footer-text {
+    font-size: 6.724px;
+  }
+
+  /* .add-space {
+    padding: 50px;
+  }
+
+  .add-space-30 {
+    padding: 30px;
+  }
+
+  .add-space-100 {
+    padding: 100px 50px 50px 50px;
+  } */
+
+  .thumbnail-detail,
+  .thumbnail {
+    padding: 25px !important;
+  }
+
+  .btn-common-extended {
+    width: 150px !important;
+  }
+
+  .personal-faves-container,
+  .thumbnail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .straight-faves {
+    max-width: 100%;
+  }
+}
