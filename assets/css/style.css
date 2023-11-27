@@ -10,12 +10,12 @@
 
 @font-face {
   font-family: "Rubik";
-  src: url("./assets/fonts/Rubik/Rubik-VariableFont_wght.ttf") format("truetype");
+  src: url("https://mawizshahab.github.io/midori/assets/fonts/Rubik/Rubik-VariableFont_wght.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Carena";
-  src: url("./assets/fonts/carena/Carena-Regular.otf") format("opentype");
+  src: url(" https://mawizshahab.github.io/midori/assets/fonts/carena/Carena-Regular.otf") format("opentype");
 }
 
 html {
